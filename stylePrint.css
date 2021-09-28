@@ -94,5 +94,8 @@ aside h3 {
   float: right;
 }
 aside a{
-    
+    text-decoration: none;
+}
+aside a:after{
+  content: "("attr(href)")";
 }
